@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 48px;
+  background: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.body1 {
+  display: flex;
+  justify-content: space-between;
+  background: #1F2937;
+  height: 300px;
+  padding: 50px 100px;
+}
+
+.hero-primary-text {
+  font-size: 48px;
+  font-weight: 1000;
+  color: #F9FAF8;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 10px 0;
+}
+
+.sign-up {
+  background: #3882F6;
+  padding: 5px 48px;
+  color: #E5E7EB;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.body1-image {
+  width: 400px;
+}
+
+.body2 {
+  height: 400px;
+}
+
+.body2-top-text {
+  font-size: 36px;
+  color: #1F2937;
+  text-align: center;
+  font-weight: 1000;
+  padding: 50px;
+  }
+
+.body2-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+
+.info {
+  width: 100px;
+  height: 100px;
+}
+
+.body2-text {
+  text-align: center;
+}
+
+.body3 {
+  height: 300px;
+  background: #E5E7EB;
+  padding: 50px 100px;
+}
+
+.body3-top-text {
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.body3-bottom-text {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.body4 {
+  height: 100px;
+  padding: 50px 100px;
+  align-items: center;
+}
+
+.modal {
+  background: #3882F6;
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.body4-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body4-top-text {
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.body4-bottom-text {
+  color: #E5E7EB
+}
+
+.body4-sign-up {
+  color: #E5E7EB;
+  border-color: #E5E7EB;
+  background: #3882F6;
+  padding: 5px 48px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.footer {
+  height: 30px;
+  background: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 15px;
+}
